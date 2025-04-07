@@ -1,44 +1,58 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f0f0;
-  margin: 40px;
+  padding: 40px;
 }
 
-div {
+h1 {
+  text-align: center;
+  color: #123458;
+}
+
+.card {
   max-width: 600px;
-  margin: 24px auto;
   padding: 20px;
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   background-color: white;
 }
 
-div > p:nth-child(1) {
-  background-color: yellow;
-  color: red;
+.card p {
   padding: 12px 16px;
   border-radius: 8px;
   margin-bottom: 12px;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.025rem;
+  line-height: 2rem;
 }
 
-div > p:nth-child(2) {
+
+.card > p:nth-child(1) {
+  background-color: #ffff00;
+  color: #ff0000;
+}
+
+.card > p:nth-child(2) {
   background-color: #007BFF;
-  color: white;
-  padding: 12px 16px;
-  border-radius: 8px;
-  margin-bottom: 12px;
+  color: #ffffff;
 }
 
-div > p:nth-child(3) {
-  background-color: pink;
-  color: rgb(0, 0, 0);
-  padding: 12px 16px;
-  border-radius: 8px;
-  margin-bottom: 12px;
+.card > p:nth-child(3) {
+  background-color: #ffc0cb;
+  color: #000000;
 }
 
-h1{
-    text-align: center;
-    color: #123458;
+
+@media screen and (max-width: 400px){
+  body {
+    padding: 20px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  .card{
+    padding: 10px;
+  }
 }
 
+/* Note: one value=> top,right,bottom,left , two value => top bottom, right left */

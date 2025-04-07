@@ -1,0 +1,44 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 40px;
+}
+
+div {
+  max-width: 600px;
+  margin: 24px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+
+div > p:nth-child(1) {
+  background-color: yellow;
+  color: red;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+div > p:nth-child(2) {
+  background-color: #007BFF;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+div > p:nth-child(3) {
+  background-color: pink;
+  color: rgb(0, 0, 0);
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+h1{
+    text-align: center;
+    color: #123458;
+}
+
